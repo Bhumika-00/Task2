@@ -1,0 +1,25 @@
+.btn {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.primary:hover {
+  background: var(--color-primary-dark);
+}
+
+.secondary {
+  background: rgba(0,0,0,0.05);
+  color: var(--color-text);
+}
+
+.secondary:hover {
+  background: rgba(0,0,0,0.1);
+}

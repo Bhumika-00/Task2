@@ -1,0 +1,31 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.title {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.value {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: var(--spacing-sm);
+}
+
+.change {
+  font-size: 0.85rem;
+  margin-top: var(--spacing-sm);
+  font-weight: 500;
+}
+
+.positive {
+  color: #16a34a;
+}
+
+.negative {
+  color: #dc2626;
+}

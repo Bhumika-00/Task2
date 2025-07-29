@@ -1,0 +1,24 @@
+.sidebar {
+  width: 240px;
+  background: var(--color-bg);
+  height: 100vh;
+  padding: var(--spacing-lg) var(--spacing-md);
+  border-right: 1px solid rgba(0,0,0,0.05);
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.sidebar li:hover {
+  color: var(--color-primary);
+}

@@ -1,0 +1,24 @@
+:root {
+  --color-bg: #f8f9fb;
+  --color-bg-dark: #1c1f27;
+  --color-primary: #2b6cb0;
+  --color-primary-dark: #1e4e8c;
+  --color-accent: #f6ad55;
+  --color-text: #1a202c;
+  --color-text-light: #edf2f7;
+
+  --font-family: 'Inter', sans-serif;
+
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  --border-radius: 12px;
+  --transition: all 0.3s ease;
+}
+
+[data-theme="dark"] {
+  --color-bg: var(--color-bg-dark);
+  --color-text: var(--color-text-light);
+}
