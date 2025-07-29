@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Powered Analytics Dashboard
 
-## Getting Started
+A modern, production-ready **AI-Powered Analytics Dashboard** built with **Next.js, Recharts, Framer Motion, and Custom CSS**.  
+This project demonstrates clean architecture, dark/light mode, AI insights generation, and reusable UI components.
 
-First, run the development server:
+---
 
+## 🚀 Live Demo
+
+👉 **[View Deployed Dashboard](https://task2-ruby-two.vercel.app/)**
+
+---
+
+## 📂 GitHub Repository
+
+👉 **[GitHub Repository Link](https://github.com/Bhumika-00/Task2)**
+
+---
+
+## ✨ Features
+
+- **Beautiful UI** with custom CSS and dark/light mode toggle  
+- **Dynamic Charts** (Line, Bar, Pie) using [Recharts](https://recharts.org/)  
+- **AI Insights Panel** with animated cards  
+- **Reusable Component Architecture** (Cards, Buttons, Filters, KPI sections)  
+- **Framer Motion** animations for smooth transitions  
+- Fully **responsive design** for mobile, tablet, and desktop  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js 14 (App Router)**
+- **React 18**
+- **TypeScript**
+- **Recharts** for data visualization  
+- **Framer Motion** for animations  
+- **Custom CSS (No Tailwind)** for full control  
+- **Vercel** for deployment  
+
+---
+
+## 📦 Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Bhumika-00/Task1.git
+   cd Task1
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at:
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 📌 Deployment
+
+The project is deployed on **Vercel**:  
+👉 [https://task2-ruby-two.vercel.app/](https://task2-ruby-two.vercel.app/)
+
+To redeploy:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+vercel --prod
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤖 AI Usage Report
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was built leveraging AI tools for faster development:
+- **ChatGPT & GitHub Copilot** were used for code suggestions and UI design enhancements.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the **MIT License**.  
+Feel free to fork and modify for personal or professional use.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 👩‍💻 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Bhumika Sharma**  
+- GitHub: [@Bhumika-00](https://github.com/Bhumika-00)  
+- LinkedIn: [Bhumika Sharma](https://www.linkedin.com/in/bhumika-sharma-1400cse)
